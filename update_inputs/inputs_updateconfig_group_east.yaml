@@ -1,0 +1,8 @@
+#cfy executions start -d <deployment_id> -p <this_file> configuration_update
+
+params:
+    "config": "new_group_east_config"
+
+node_types_to_update: [cloudify.nodes.EasternCPE]
+
+configuration_node_type: east_group_cpe_configuration_loader

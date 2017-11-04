@@ -1,0 +1,15 @@
+all:
+  config:
+    dns: global-dns-server
+
+group_west:
+  config:
+    ntp: west-ntp-server
+
+group_east:
+  config:
+    ntp: east-ntp-server
+
+cpe1:
+  config:
+    ntp: cpe1-ntp-server

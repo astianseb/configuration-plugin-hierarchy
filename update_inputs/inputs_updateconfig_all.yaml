@@ -1,0 +1,8 @@
+#cfy executions start -d <deployment_id> -p <this_file> configuration_update
+
+params:
+    "config": "new_global_config"
+
+node_types_to_update: [cloudify.nodes.CPE]
+
+configuration_node_type: all_cpe_configuration_loader
